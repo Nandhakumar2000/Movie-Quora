@@ -1,0 +1,274 @@
+body{
+    background: url(http://qsfs.fs.quoracdn.net/-3-images.home.illo_1920.png-26-5ac607d989ef8067.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+height: 100%;
+position: fixed;
+  }
+#centered_box {
+width: 650px;
+background-color: #fff;
+color: #fff;
+margin: auto;
+margin-top: 5%;
+}
+#innerBox{
+padding-top: 20px;
+}
+.NetworkLogo{
+width: 224px;
+min-width: 224px;
+height: 140px;
+background-size: 224px 63px;
+background-image: url(http://qsfs.fs.quoracdn.net/-3-images.logo.wordmark_default.svg-26-bfa6b94bc0d6af2e.svg);
+background-repeat: no-repeat;
+background-position: center center;
+height: 82px;
+position: relative;
+}
+.TagLine{
+font-size: 19px;
+font-weight: 400;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+margin: 8px 0 32px;
+color: #949494;
+text-align: center;
+}
+.column {
+float: left;
+width: 49%;
+}
+
+#input-form{
+margin: 20px;
+margin-top: 65px;
+
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+#left-Column{
+border-right: 1px solid #ddd;
+}
+form{
+display: block;
+padding-left: 32px;
+}
+.login-title{
+text-align: left;
+color: #333;
+font-weight: bold;
+margin-bottom: 8px;
+font-size: 13px;
+}
+input{
+width: 100%;
+font-size: 15px;
+line-height: 1.4;
+padding-left: 8px;
+padding-right: 8px;
+min-height: 32px;
+margin-bottom: 8px;
+background-color: #EEE;
+padding: 3px 5px;
+height: 15px;
+border: 1px solid #e2e2e2;
+border-radius: 3px;
+box-shadow: inset 0 1px 1px rgba(200,200,200,0.3);
+box-sizing: border-box;
+}
+#password-input{
+margin-top: 17px;
+}
+a{
+text-align: left;
+font-size: 13px;
+text-decoration: none;
+color: #949494;
+cursor: pointer;
+}
+input[type='submit']{
+font: inherit;
+margin: 0;
+float: right;
+font-size: 15px;
+width: 70px;
+line-height: 1.4;
+box-sizing: border-box;
+transition: opacity ease-in-out 100ms,color ease-in-out 100ms,background-color ease-in-out 100ms,border-color ease-in-out 100ms;
+border-radius: 3px;
+display: inline-block;
+font-weight: 500;
+outline: 0;
+padding: 3px 7px 4px 7px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+background: #3e78ad;
+color: #fff;
+border: 1px solid #3a66ad;
+box-shadow: 0 1px 1px 0 rgba(200,200,200,0.6);
+}
+.language-links{
+margin-top: 50px;
+border-top: 1px solid #e2e2e2;
+border-bottom: 1px solid #eee;
+color: #949494;
+font-size: 13px;
+cursor: pointer;
+padding: 0px;
+}
+.arrow {
+border: solid #949494;
+border-width: 0 2px 2px 0;
+display: inline-block;
+padding: 3px;
+}
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.footer-nav{
+padding: 6px;
+background: #fafafa;
+}
+.footer-nav .nav_list {
+text-align: center;
+}
+ul, ol {
+list-style: none;
+}
+ul, ol, li {
+margin: 0;
+padding-left: 7px;
+  display:inline;
+  font-size: 13px;
+}
+ul {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+.copyright{
+text-align: center;
+color: #949494;
+font-size: 13px;
+}
+#lefttitle{
+    color: #000;
+}
+
+
+.google-btn {
+    width: 80%;
+    height: 42px;
+    background-color:  rgb(206,84,59);
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    cursor: pointer;
+  }
+
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 33px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .google-icon {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 7px;
+    width: 18px;
+    height: 18px;
+  }
+  .google-btn-text {
+    float: right;
+    margin: 11px 30px 0 20px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-family: "tahoma";
+  }
+  .google-btn:hover {
+    box-shadow: 0 0 6px  rgb(206,84,59);
+  }
+  .google-btn:active {
+    background: rgb(206,84,59);
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+
+  .fb-btn {
+    width: 80%;
+    height: 42px;
+    background-color:  rgb(90,123,187);
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    cursor: pointer;
+  }
+
+  .fb-icon-wrapper {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 33px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .fb-icon {
+    position: absolute;
+    margin:2px;
+  margin-left: -17px;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 10px 0 10px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-family: "tahoma";
+  }
+  .fb-btn:hover {
+    box-shadow: 0 0 6px  rgb(90,123,187);
+  }
+  .fb-btn:active {
+    background: rgb(90,123,187);
+  }
+  #desp{
+      padding: 5px;
+      padding-left: 30px;
+      text-align: left;
+  }
+  #des{
+    text-align: left;
+  }
+  .tos_link{
+    text-decoration: none;
+    color: #2b6dad;
+  }
+  .disclaimer{
+    color: #949494;
+    font-size: 13px;
+  }
+
+label{
+  color: '#737373';
+  float: left;
+  font-size: 13px;
+}
